@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.css" integrity="sha512-M0U3q0gtzBgpMf++hqHvaLWyFPubXtEVzk/OO2UEE7Rtvo7wDLh8ClrpWIoUgfGebHxQrPNXmdfYPlrEIZU0Rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Link JS Move-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    
+    <!--Link Twitter Bootstrap-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"/>-->
+    
+    <!--Link JS Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+
+    <!--Link Ucons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css"/>
+    
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+        crossorigin="anonymous" 
+    />   
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/styleDark.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
+
+    <title>Web Site Dumtac</title>
+</head>
+<body>
+
+ <!--Header Start-->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="../assets/img/LOGO DUMTAC FINAL-3.png">
+            </a>
+        </div>
+
+        <ul class="menu">
+            <li>
+                <a href="index.html">Acceuil</a>
+            </li>    
+            <li>
+                <a href="about.html">Agence
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li>
+                                <a href="strategie_branding.html">Stratégie et Marque</a>
+                            </li>
+    
+                            <li>
+                                <a href="content_factory.html">Contenu société</a>
+                            </li>
+    
+                            <li>
+                                <a href="social_media.html">Réseaux Social</a>
+                            </li>
+                        </ul>
+                    </div>             
+                </a>
+            </li>
+    
+            <li>
+                <a href="studio.html">Studio</a>                 
+               
+            </li>
+    
+            <li>
+                <a href="contact.html">Contactez</a>
+            </li>            
+        </ul>
+        <div class="translate">
+            <a class ="text_en" href="../en/index.html">
+                EN
+            </a> 
+        </div>                   
+        <div class="dark_light">
+            <input type="checkbox" id="toggle_darkLight">
+            <label for="toggle_darkLight" class="button_darkLight"></label>
+        </div>  
+        <div class="hamburger-menu">
+            <div class="bar">
+            </div>
+        </div>      
+    </header>
+
+    <div class="arrowBtn">
+        <img src="../assets/img/arrow.svg">
+    </div>
+<!--Header End--> 
+
+
+<!--Contenu Start-->
+ <!--Description Start-->
+ 
+ <section class="description">
+    <!--Left Description Start-->
+    <div class="desc_left">
+        <div class="left">
+            <h1>
+                <span>D</span>
+                <span>U</span>
+                <span>M</span>
+                <span>T</span>
+                <span>A</span>
+                <span>C</span>
+            </h1>            
+            <p class="paragraphe">Agence Créative et studio de production spécialisés 
+                dans le Brand Content et le Divertissement.            
+                <span class="more_text">
+                    De la stratégie à la production, notre équipe polyvalente
+                    se charge du cycle de vie complet de votre contenu.
+                    Notre méthode agile, fondée sur l'efficacité, 
+                    la collaboration et l'innovation, rend le flux de travail 
+                    avec vous facile à gérer, et surtout convivial.
+                </span>
+            </p>
+            <input id="btn" class="btn" type="button" value="Lire la suite">
+        </div>
+    </div>
+    <!--Left Description  End-->
+
+    <!--Right Description Start-->
+    <div class="desc_right">
+        <div class="image_brand">
+            <img src="../assets/img/brand.gif">
+        </div>            
+        <h2 class="text"> &  IDEAS THAT GROW BRANDS</h2> 
+    </div>
+    <!--Right Description  End-->
+</section>
+<!--Description End-->    
+
+<!--Agency Start-->
+<section class="agency">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2>Agency</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!--Left Strategie Start-->
+            <div class="strategie_left" padd-15>
+                <div class="content content_img st_L">
+                    <img class="image_agency img1" src="../assets/img/agency_img/1.png">
+                    <img class="image_agency img2" src="../assets/img/agency_img/2.png">
+                    <img class="image_agency img3" src="../assets/img/agency_img/3.png">
+                    <img class="image_agency img4" src="../assets/img/agency_img/4.png">
+                    <img class="image_agency img5" src="../assets/img/agency_img/5.png">
+                    <img class="image_agency img6" src="../assets/img/agency_img/6.png">
+                    <img class="image_agency img7_1" src="../assets/img/agency_img/7.png">
+                    <img class="image_agency img8" src="../assets/img/agency_img/8.png"> 
+                </div>
+            </div>
+            <!--Left Strategie End-->
+            <!--Right Strategie Start-->
+            <div class="strategie_right" padd-15>
+                <div class="content st_R content_border">
+                    <h3>Strategie Branding</h3>
+                    <p>
+                        Notre équipe étudie votre offre, votre visibilité 
+                        et la perception de votre cible, afin d’élaborer 
+                        un plan d’action concret qui renforcera votre image 
+                        de marque et atteindra vos objectifs.
+                    </p>                        
+                    <input onclick="location.href='strategie_branding.html'" class="btn" type="button" value="Learn more">
+                </div>
+            </div>
+            <!--Right Strategie End-->
+            <!--Left Factory Start-->
+            <div class="factory_left" padd-15>
+                <div class="content fc_L content_border">
+                    <h3>CONTENT FACTORY</h3>
+                    <p>
+                        Notre pôle vous accompagne dans la conception 
+                        et la production de vos ../assets en général mais 
+                        aussi sur tout le Short Content tels que les Reels, 
+                        les stories, etc….
+                    </p>
+                    <input onclick="location.href='content_factory.html'" class="btn" type="button" value="Learn more">
+                </div>
+            </div>
+            <!--Left Factory End-->
+            <!--Right Factory Start-->
+            <div class="factory_right" padd-15>
+                <div class="content content_img fc_R">
+                    <img class="image_agency img1" src="../assets/img/agency_img/1.png">
+                    <img class="image_agency img2" src="../assets/img/agency_img/2.png">
+                    <img class="image_agency img3" src="../assets/img/agency_img/3.png">
+                    <img class="image_agency img4" src="../assets/img/agency_img/4.png">
+                    <img class="image_agency img5" src="../assets/img/agency_img/5.png">
+                    <img class="image_agency img6" src="../assets/img/agency_img/6.png">
+                    <img class="image_agency img7_1" src="../assets/img/agency_img/7.png">
+                    <img class="image_agency img8" src="../assets/img/agency_img/8.png"> 
+                </div>
+            </div>
+            <!--Right Factory End-->
+            <!--Left Social Start-->
+            <div class="social_left" padd-15>
+                <div class="content content_img sc_L">
+                    <img class="image_agency img1" src="../assets/img/agency_img/1.png">
+                    <img class="image_agency img2" src="../assets/img/agency_img/2.png">
+                    <img class="image_agency img3" src="../assets/img/agency_img/3.png">
+                    <img class="image_agency img4" src="../assets/img/agency_img/4.png">
+                    <img class="image_agency img5" src="../assets/img/agency_img/5.png">
+                    <img class="image_agency img6" src="../assets/img/agency_img/6.png">
+                    <img class="image_agency img7_1" src="../assets/img/agency_img/7.png">
+                    <img class="image_agency img8" src="../assets/img/agency_img/8.png"> 
+                </div>
+            </div>
+            <!--Left Social End-->
+            <!--Right Social Start-->
+            <div class="social_right" padd-15>
+                <div class="content sc_R content_border">
+                    <h3>SOCIAL MEDIA</h3>
+                    <p>
+                        Nous accompagnons votre marque dans la définition 
+                        de vos stratégies social media sur toutes les plateformes 
+                        sociales pour votre communication BtoC & BtoB.
+                    </p>
+                    <input onclick="location.href='social_media.html'" class="btn" type="button" value="Learn more">
+                </div>
+            </div>
+            <!--Right Social End-->
+        </div>
+    </div>
+</section>
+<!--Agency End-->
+
+<!--Studio Start-->
+<section class="studio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2>Studio</h2>
+            </div>
+        </div>            
+        <div class="content"> 
+            <div class="image">
+                <img src="../assets/img/capeture studio.png">
+            </div>            
+            <div class="text-box">
+                <h3>Lien Studio</h3>
+                <p>
+                    Notre équipe étudie votre offre, votre visibilité 
+                    et la perception de votre cible, afin d’élaborer 
+                    un plan d’action concret qui renforcera votre image 
+                    de marque et atteindra vos objectifs.
+                </p>
+                <input onclick="location.href='studio.html'" class="btn" type="button" value="Learn more">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Studio End-->
+
+<!--Team Start-->
+        <!--  <section class="team">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>OUR CREATIVES TEAM</h2>
+                    </div>
+                </div>
+                <br>
+                <div class="row text-center"> 
+                    <div class="col-md-12">
+                        <div class="swiper-container team-member-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="team-coverflow">
+                                        <div class="team-img">
+                                            <img src="../assets/img/mateus-campos.jpg">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a></li>                        
+                                                    <li><a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="team-text">
+                                            <br>
+                                            <h4>Cristina Martin</h4>
+                                            <p>CEO & Founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-coverflow">
+                                        <div class="team-img">
+                                            <img src="../assets/img/marco-chilese.jpg">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a></li>                        
+                                                    <li><a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="team-text">
+                                            <br>
+                                            <h4>Cristina Martin</h4>
+                                            <p>CEO & Founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team-coverflow">
+                                        <div class="team-img">
+                                            <img src="../assets/img/mateus-campos.jpg">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a></li>                        
+                                                    <li><a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="team-text">
+                                            <br>
+                                            <h4>Cristina Martin</h4>
+                                            <p>CEO & Founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next slider-arrows">
+                            </div>
+                            <div class="swiper-button-prev slider-arrows">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <section class="team">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2>OUR CREATIVES TEAM</h2>
+            </div>
+        </div>        
+        <br>
+        <input type="radio" name="dot" id="one">
+        <input type="radio" name="dot" id="two">
+        <div class="main-card">
+            <div class="cards cards1">   
+                <div class="card">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>                 
+                <div class="card">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>
+                <div class="card card_3">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>
+            </div>
+            <div class="cards cards2">   
+                <div class="card">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>                 
+                <div class="card">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content_card">
+                        <div class="image_card">
+                            <img src="../assets/img/marco-chilese.jpg" alt="">
+                        </div>  
+                        <div class="details">
+                            <div class="name">Amira Lhmzaoui</div>
+                            <div class="job">web Designer</div>
+                        </div>  
+                        <div class="media_icons">
+                            <a href="#"><i class="ti ti-facebook"></i></a>
+                            <a href="#"><i class="ti ti-twitter-alt"></i></a>
+                            <a href="https://www.linkedin.com/company/dumtac/about/"><i class="ti ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dumtac/"><i class="ti ti-instagram"></i></a>
+                        </div>                         
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+           <label for="one" class="one active"></label> 
+           <label for="two" class="two"></label> 
+        </div>
+    </div>
+</section>
+<!--Team End-->
+
+<!--Contenu End-->
+
+<!--Footer Start-->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="container">
+            <div class="content_footer">
+                <div class="profil">
+                    <div class="logo">
+                        <img src="../assets/img/LOGO DUMTAC FINAL-3.png">
+                    </div>
+                    <div class="desc_area">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Natus eum, ducimus ut aliquid rem et!
+                        </p>
+                    </div>
+                    <div class="social_media">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/dumtac/about/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/dumtac/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="service_area">
+                    <ul class="service_header">
+                        <li class="service_name">Services</li>
+                        <li><a href="#">IT Consulting</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Cloud</a></li>
+                        <li><a href="#">DevOps & Support</a></li>
+                    </ul>
+                </div>
+                <div class="service_area">
+                    <ul class="service_header">
+                        <li class="service_name">Industries</li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Public Sector</a></li>
+                        <li><a href="#">Smart Office</a></li>
+                        <li><a href="#">Retail</a></li>
+                    </ul>
+                </div>
+                <div class="service_area">
+                    <ul class="service_header">
+                        <li class="service_name">Company</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Join Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <div class="copy_right">
+                    <i class="fa fa-copyright"></i>
+                    <span>2022 | Mr. Developer</span>
+                </div>
+                <div class="tou">
+                    <a href="#">Term of Use</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie</a>
+                </div>
+            </div>            
+        </div>
+    </footer>
+<!--Footer End-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.4/swiper-bundle.min.js" integrity="sha512-hNnjFWCqifslGhuZJVHjXdBund00oDV71mBacLyZYVwmuf+Lx+MGgoG04wehsvhp6FvLYfycrES+b1yh24yvhg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>-->
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
